@@ -1,0 +1,137 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>在线标注系统</title>
+</head>
+
+<body>
+<form action="Ensrue_upload.php" enctype="multipart/form-data" method="post"
+name="uploadfile">
+<label >患者姓名:</label>
+<input type="text" name="username" /><br><br>
+<label >静态static:</label>
+<label>额纹是否对称：</label>
+<select name="userstatic1">
+  <option value ="0" >正常</option>
+  <option value ="1">轻度</option>
+  <option value="2">中度</option>
+  <option value="3">重度</option>
+</select><br>
+<label style="padding-left:81px;">眼睑开合情况：</label>
+<select name="userstatic2">
+  <option value ="0" >正常</option>
+  <option value ="1">轻度</option>
+  <option value="2">中度</option>
+  <option value="3">重度</option>
+</select><br>
+<label style="padding-left:81px;">鼻唇沟深浅程度：</label>
+<select name="userstatic3">
+  <option value ="0" >正常</option>
+  <option value ="1">轻度</option>
+  <option value="2">中度</option>
+  <option value="3">重度</option>
+</select><br>
+<label style="padding-left:81px;">嘴角歪斜的程度：</label>
+<select name="userstatic4">
+  <option value ="0" >正常</option>
+  <option value ="1">轻度</option>
+  <option value="2">中度</option>
+  <option value="3">重度</option>
+</select><br>
+<label >图片文件:</label>
+<input type="file" name="static_photo" multiple="multiple"/><br><br>
+<label >抬眉:</label>
+<label >额肌运动的异常程度:</label>
+<select name="taimei">
+  <option value ="0" >正常</option>
+  <option value ="1">轻度</option>
+  <option value="2">中度</option>
+  <option value="3">重度</option>
+</select><br>
+<label >图片文件:</label>
+<input type="file" name="taimei_photo" />
+<label >视频文件:</label>
+<input type="file" name="taimei_video" /><br><br>
+<label >皱眉:</label>
+<label >皱眉肌运动的异常程度:</label>
+<select name="zhoumei">
+  <option value ="0" >正常</option>
+  <option value ="1">轻度</option>
+  <option value="2">中度</option>
+  <option value="3">重度</option>
+</select><br>
+<label >图片文件:</label>
+<input type="file" name="zhoumei_photo" />
+<label >视频文件:</label>
+<input type="file" name="zhoumei_video" /><br><br>
+<label >闭眼:</label>
+<label >眼睑开合的异常程度:</label>
+<select name="biyan">
+  <option value ="0" >正常</option>
+  <option value ="1">轻度</option>
+  <option value="2">中度</option>
+  <option value="3">重度</option>
+</select><br>
+<label >图片文件:</label>
+<input type="file" name="biyan_photo" />
+<label >视频文件:</label>
+<input type="file" name="biyan_video" /><br><br>
+<label >耸鼻:</label>
+<label >鼻唇沟异常程度:</label>
+<select name="songbi">
+  <option value ="0" >正常</option>
+  <option value ="1">轻度</option>
+  <option value="2">中度</option>
+  <option value="3">重度</option>
+</select><br>
+<label >图片文件:</label>
+<input type="file" name="songbi_photo" />
+<label >视频文件:</label>
+<input type="file" name="songbi_video" /><br><br>
+<label >微笑:</label>
+<label >口角歪斜的异常程度:</label>
+<select name="weixiao">
+  <option value ="0" >正常</option>
+  <option value ="1">轻度</option>
+  <option value="2">中度</option>
+  <option value="3">重度</option>
+</select><br>
+<label >图片文件:</label>
+<input type="file" name="weixiao_photo" />
+<label >视频文件:</label>
+<input type="file" name="weixiao_video" /><br><br>
+<label >示齿:</label>
+<label >口角歪斜的异常程度:</label>
+<select name="shichi">
+  <option value ="0" >正常</option>
+  <option value ="1">轻度</option>
+  <option value="2">中度</option>
+  <option value="3">重度</option>
+</select><br>
+<label >图片文件:</label>
+<input type="file" name="shichi_photo" />
+<label >视频文件:</label>
+<input type="file" name="shichi_video" /><br><br>
+<label >鼓腮:</label>
+<label >鼓腮漏气的情况:</label>
+<select name="gusai1">
+  <option value ="0" >正常</option>
+  <option value ="1">轻度</option>
+  <option value="2">中度</option>
+  <option value="3">重度</option>
+</select><br>
+<label style="padding-left:41px;">口角歪斜的程度:</label>
+<select name=gusai2>
+  <option value ="0" >正常</option>
+  <option value ="1">轻度</option>
+  <option value="2">中度</option>
+  <option value="3">重度</option>
+</select><br>
+<label >图片文件:</label>
+<input type="file" name="gusai_photo" />
+<label >视频文件:</label>
+<input type="file" name="gusai_video" /><br><br>
+<input type="submit" name="submit" value="上传" />
+</form>
+</body>
+</html>
